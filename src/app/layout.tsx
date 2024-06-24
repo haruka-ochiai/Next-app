@@ -24,9 +24,9 @@ export default function RootLayout({
         <header>
           <nav>
             <ul>
-              <li><link href="/">Home</link></li>
-              <li><link href="/about">About</link></li>
-              <li><link href="/login">Login</link></li>
+              <li><Link href="/">Home</Link></li>
+              <li><Link href="/about">About</Link></li>
+              <li><Link href="/login">Login</Link></li>
             </ul>
           </nav>
         </header>

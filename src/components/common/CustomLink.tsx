@@ -11,7 +11,7 @@ const CustomLink: React.FC<CustomLinkProps> = ({ href, title, description }) => 
     return (
         <Link href = {href}>
             <h2>
-                {title}
+                {title}{description}
             </h2>
         </Link>
     )
