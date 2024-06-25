@@ -20,13 +20,13 @@ export default function RootLayout({
       <head>
         <title>My Next.js app</title>
       </head>
-      <body>
-        <header>
-          <nav>
-            <ul>
-              <li><Link href="/">Home</Link></li>
-              <li><Link href="/about">About</Link></li>
-              <li><Link href="/login">Login</Link></li>
+      <body className="bg-gray-100 text-gray-900">
+        <header className="bg-white shadow">
+          <nav className="container mx-auto p-4">
+            <ul className="flex space-x-4">
+              <li><Link href="/" className="text-blue-500 hover:text-blue-700">Home</Link></li>
+              <li><Link href="/about" className="text-blue-500 hover:text-blue-700">About</Link></li>
+              <li><Link href="/login" className="text-blue-500 hover:text-blue-700">Login</Link></li>
             </ul>
           </nav>
         </header>

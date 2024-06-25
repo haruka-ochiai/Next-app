@@ -2,10 +2,12 @@ import React from "react";
 
 const AboutPage = () => {
     return (
-        <div>
-            <h1>About ページ</h1>
-            <h2>ここは馬好きによる馬好きのためのサイトです</h2>
-        </div>
+        <main className="flex min-h-screen flex-col items-center justify-between p-24">
+            <div>
+                <h1>About ページ</h1>
+                <h2>これは熊の位置情報を共有できるアプリです</h2>
+            </div>
+        </main>
     )
 }
 
