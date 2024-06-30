@@ -26,7 +26,8 @@ export default function RootLayout({
             <ul className="flex space-x-4">
               <li><Link href="/" className="text-blue-500 hover:text-blue-700">Home</Link></li>
               <li><Link href="/about" className="text-blue-500 hover:text-blue-700">About</Link></li>
-              <li><Link href="/login" className="text-blue-500 hover:text-blue-700">Login</Link></li>
+              <li><Link href="/login" className="text-blue-500 hover:text-blue-700">ログイン</Link></li>
+              <li><Link href="/signup" className="text-blue-500 hover:text-blue-700">新規登録</Link></li>
             </ul>
           </nav>
         </header>
