@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from "react";
+import { useRouter } from "next/navigation";
 
 const SignUpPage = () => {
     const [formData, setFormData ] = useState({
@@ -8,6 +9,7 @@ const SignUpPage = () => {
         email: '',
         password: ''
     });
+    const router = useRouter();
 
     // フォームの入力フィールドの値が変化したときに呼び出される関数
     const handleChange = (e) => {
@@ -37,6 +39,7 @@ const SignUpPage = () => {
 
         if(response.ok) {
             alert('登録に成功しました')
+            router.push('/posts');
         }else {
             alert('登録に失敗しました')
         }
